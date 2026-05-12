@@ -11,6 +11,7 @@ DISPLAYMANAGERS=(
 "slim"
 "xorg-xdm"
 )
+echo "WARNING: Selecting multiple display managers may cause conflicts!"
 echo "Select the display managers you want to install:"
 echo
 for i in "${!DISPLAYMANAGERS[@]}"; do
